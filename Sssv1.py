@@ -6,7 +6,7 @@ import xlsxwriter
 df = pd.read_csv('data.csv')
 print(df.head())
 shelf_list_with_stock = []
-for row in df["货架号"]:
+for row in df["Shelf No."]:
     if row[-1] != "z":
         shelf_list_with_stock.append(row)
 # print(shelf_list_with_stock)
