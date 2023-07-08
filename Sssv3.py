@@ -97,7 +97,7 @@ elif long_Bay_User_input_start >= 9 and long_Bay_User_input_end >= 9:
 
 full_shelf_list = []
 for select_isle_num in range(islenum_start, islenum_end):
-    if select_isle_num not in range(599, 608) and select_isle_num not in range(542, 563):
+    if select_isle_num not in range(599, 607) and select_isle_num not in range(542, 563):
         if select_isle_num in long_isles:
 
             for bay in range(long_Bay_Range_1, long_Bay_Range_2):
@@ -277,7 +277,7 @@ while filter:
     elif user_filter_input == "STATS":
         for islenum in range(islenum_start, islenum_end):
 
-            if islenum not in range(599, 608):
+            if islenum not in range(599, 607):
 
                 for select_empty_locations in empty_locations:
 
